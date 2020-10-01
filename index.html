@@ -6,25 +6,24 @@
   <meta charset="UTF-8" />
   <title>Krunker Site</title>
   <link rel="stylesheet" href="style.css">
+  <script src='script.js'></script>
 </head>
 <body>
-  <script src='script.js'></script>
   <iframe src='https://krunker.io' frameborder='none'></iframe>
 		
   <button id='menuBTN' onclick='flip()'>∨</button>
-
-		<div id='menu'>
-			<button onclick='market()'>Market</button>
-			<button onclick='merch()'>Merch</button>
-			<button onclick='terms()'>Terms</button>
-			<br><br>
-			<button onclick='user()'>User Profile</button>
-			<input type="text" id='userInput' placeholder='Put a username here'>
-			<br><br>
-			<button onclick='item()'>Item Info</button>
-			<input type="text" id='itemInput' placeholder='Put the item number here'>
-			<br><br>
-			<button id='itemSearchBTN' onclick='location.href=search.html' target='_blank'>Item Numbers</button>
-		</div>
+    <div id='menu'>
+      <button onclick='market()'>Market</button>
+      <button onclick='merch()'>Merch</button>
+      <button onclick='terms()'>Terms</button>
+      <br><br>
+      <button onclick='user()'>User Profile</button>
+      <input type="text" id='userInput' placeholder='Put a username here'>
+      <br><br>
+      <button onclick='item()'>Item Info</button>
+      <input type="text" id='itemInput' placeholder='Put the item number here'>
+      <br><br>
+      <button id='itemSearchBTN' onclick='location.href=search.html' target='_blank'>Item Numbers</button>
+    </div>
 </body>
 </html>
