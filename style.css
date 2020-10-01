@@ -12,9 +12,10 @@ iframe {
 	left: 19vw;
 	width: 3.5vw;
 	height: 3.5vw;
-	background: white;
+	background: none;
 	border: none;
 	border-radius: 2px;
+	font-size: 30px;
 }
 
 #menu{
