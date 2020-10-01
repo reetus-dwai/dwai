@@ -13,9 +13,9 @@ function market(){
 }
 
 function merch(){
-	document.getElementById('iframe').src = '';
+	document.getElementById('iframe').src = 'https://shop.spreadshirt.com/krunkerio';
 }
 
 function terms(){
-	document.getElementById('iframe').src = '';
+	document.getElementById('iframe').src = 'https://krunker.io/docs/terms.txt';
 }
