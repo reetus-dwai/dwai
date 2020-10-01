@@ -38,3 +38,7 @@ function viewer(){
 function editor(){
 	document.getElementById('iframe').src = 'https://krunker.io/editor.html';
 }
+
+function clan(){
+	document.getElementById('iframe').src = 'https://krunker.io/social.html?p=clan&q=' + document.getElementById('clanInput').value;
+}
