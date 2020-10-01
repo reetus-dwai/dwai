@@ -27,3 +27,14 @@ function user(){
 function item(){
 	document.getElementById('iframe').src = 'https://krunker.io/social.html?p=itemsales&i=' + document.getElementById('itemInput').value;
 }
+function join(){
+	document.getElementById('iframe').src = 'https://krunker.io/?game=' + document.getElementById('joinInput').value;
+}
+
+function viewer(){
+	document.getElementById('iframe').src = 'https://krunker.io/viewer.html';
+}
+
+function editor(){
+	document.getElementById('iframe').src = 'https://krunker.io/editor.html';
+}
