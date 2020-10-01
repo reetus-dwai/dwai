@@ -7,3 +7,15 @@ function flip(){
 		document.getElementById('menuBTN').innerHTML = '∨';
 	}
 }
+
+function market(){
+	document.getElementById('iframe').src = 'https://krunker.io/social.html?p=market';
+}
+
+function merch(){
+	document.getElementById('iframe').src = '';
+}
+
+function terms(){
+	document.getElementById('iframe').src = '';
+}
