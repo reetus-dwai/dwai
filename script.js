@@ -19,3 +19,11 @@ function merch(){
 function terms(){
 	document.getElementById('iframe').src = 'https://krunker.io/docs/terms.txt';
 }
+
+function user(){
+	document.getElementById('iframe').src = 'https://krunker.io/social.html?p=profile&q=' + document.getElementById('userInput').value;
+}
+
+function item(){
+	document.getElementById('iframe').src = '' + document.getElementById('itemInput').value;
+}
