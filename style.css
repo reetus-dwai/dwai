@@ -15,7 +15,12 @@ iframe {
 	background: none;
 	border: none;
 	border-radius: 2px;
-	font-size: 30px;
+	color: white;
+	font-size: 2vw;
+	opacity: 0.1;
+}
+#menuBTN:hover {
+	opacity: 1;
 }
 
 #menu{
