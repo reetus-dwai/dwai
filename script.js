@@ -25,5 +25,5 @@ function user(){
 }
 
 function item(){
-	document.getElementById('iframe').src = '' + document.getElementById('itemInput').value;
+	document.getElementById('iframe').src = 'https://krunker.io/social.html?p=itemsales&i=' + document.getElementById('itemInput').value;
 }
