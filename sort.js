@@ -1,7 +1,7 @@
 function sort(){
   if (document.getElementById('rarity').value){
-    document.getElementById('items').innerHTML = document.getElementById('rarity').value;
+    document.getElementByClass(document.getElementById('rarity').value).style.display = 'block';
   } else {
-    document.getElementById('items').innerHTML = 'bruh';
+    document.getElementById('items').innerHTML = 'You did not choose anything to sort';
   }
 }
