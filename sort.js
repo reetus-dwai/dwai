@@ -4,7 +4,7 @@ function sort(){
 //   } else {
 //     document.getElementById('items').innerHTML = 'You did not choose anything to sort';
 //   }
-  alert('this works');
-    document.getElementsByClassName('Unobtainable').style.display = 'block';
+  alert('work');
+    document.getElementByClassName('Unobtainable').style.display = 'block';
   alert('still works');
 }
