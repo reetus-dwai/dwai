@@ -21,6 +21,7 @@ function terms(){
 }
 
 function user(){
+	window.open('index.html');
 	document.getElementById('iframe').src = 'https://krunker.io/social.html?p=profile&q=' + document.getElementById('userInput').value;
 }
 
