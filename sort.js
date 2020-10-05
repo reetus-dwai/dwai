@@ -7,6 +7,7 @@ function sort(){
     document.getElementsByClassName(document.getElementById('rarity').value)[i].style.display = 'block';
     }
   } else {
+      document.getElementsByTagName('p').sort;
       for (i = 1; i < (document.getElementsByTagName('p').length - 1); i++){
         document.getElementsByTagName('p')[i].style.display = 'block';
       }
